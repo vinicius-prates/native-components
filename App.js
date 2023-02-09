@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
         <Botao bg='warn'>Login</Botao>
-        <Botao>Logout</Botao>
+        <Botao bg='secundary'>Logout</Botao>
        <StatusBar style="auto" />
     </View>
   );
